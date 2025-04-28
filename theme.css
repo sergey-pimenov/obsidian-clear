@@ -749,3 +749,47 @@ a[href=""] {
 }
 
 
+/* Headers */
+
+.HyperMD-header {
+	position: relative;
+}
+
+.HyperMD-header::before {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(-1.4em, -100%);
+	font-size: calc(1em / 3);
+  color: var(--brand-color-2);
+}
+
+.HyperMD-header-1:before {
+	content: '❶';
+}
+
+.HyperMD-header-2:before {
+	content: '❷';
+	opacity: 0.95;
+}
+
+.HyperMD-header-3:before {
+	content: '❸';
+	opacity: 0.9;
+}
+
+.HyperMD-header-4:before {
+	content: '❹';
+	opacity: 0.85;
+}
+
+.HyperMD-header-5:before {
+	content: '❺';
+	opacity: 0.8;
+}
+
+.HyperMD-header-6:before {
+	content: '❻';
+	opacity: 0.75;
+}
+
