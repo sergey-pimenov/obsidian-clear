@@ -689,9 +689,9 @@ body {
   --color-pink-rgb: 213, 57, 132;
   --color-pink: #d53984;
   --color-base-00: #ffffff;
-  --color-base-05: #fcfcfc;
+  --color-base-05: #fffbef; /* Changed, brand color */
   --color-base-10: #fafafa;
-  --color-base-20: #f6f6f6;
+  --color-base-20: #fffbef; /* Changed, brand color */
   --color-base-25: #e3e3e3;
   --color-base-30: #e0e0e0;
   --color-base-35: #d4d4d4;
