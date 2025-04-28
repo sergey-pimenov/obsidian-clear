@@ -742,3 +742,10 @@ body {
 	content: ' ◂';
 }
 
+/* Unresolved links */
+
+a[href=""] {
+	color: grey !important;
+}
+
+
