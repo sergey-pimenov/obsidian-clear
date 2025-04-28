@@ -726,3 +726,19 @@ body {
 		0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
 		0px 30px 90px rgba(0, 0, 0, 0.2);
 }
+
+/* Header title */
+
+.view-header-title {
+	font-weight: bolder;
+	color: var(--brand-color-2) !important;
+}
+
+.view-header-title::before {
+	content: '▸ ';
+}
+
+.view-header-title::after {
+	content: ' ◂';
+}
+
